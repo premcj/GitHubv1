@@ -1,7 +1,7 @@
 def GetMePath;
 node
 {
-    stage('checgghkout')
+    stage('checggkout')
     {
         git credentialsId: 'Premcj', url: 'https://github.com/premcj/GitHubv1.git'
         GetMePath =pwd()
